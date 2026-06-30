@@ -1,0 +1,4 @@
+Instalar Typescript
+1.- npm i -g typescript
+2.- tsc -v
+3.- Compilador tsc -init
