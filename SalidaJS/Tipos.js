@@ -17,12 +17,22 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // let mul=456*34
 // console.log(mul)
 let colores = ["rojo", "verde", "azul"];
-console.log(colores);
+// console.log(colores)
 let numeros = [3, 9, 16, 25, 49];
-console.log(numeros);
+// console.log(numeros)
 colores.push("Morado");
 console.log(colores);
 colores.push("Negro");
 console.log(colores);
 console.log(colores[1]);
+colores.pop();
+console.log(colores);
+colores.shift();
+console.log(colores);
+for (let i = 0; i < colores.length; i++) {
+    console.log(i);
+    console.log(colores[i]);
+}
+var raiz = numeros.map(Math.sqrt);
+console.log(raiz);
 //# sourceMappingURL=Tipos.js.map
