@@ -1,0 +1,5 @@
+Instalacion
+ctrl + shift + p
+
+Correr el test 
+npx playwright test
